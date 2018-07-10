@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamauraiApp.Data", "SamauraiApp.Data\SamauraiApp.Data.csproj", "{C0EA4396-3D5A-4586-AD1E-F7ED7C646327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamauraiApp.Domain", "SamauraiApp.Domain\SamauraiApp.Domain.csproj", "{E8AA375A-BACA-4C8A-ACE5-2F8200EE86F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamauraiApp.Test", "SamauraiApp.Test\SamauraiApp.Test.csproj", "{C7B6DCE2-6F54-4914-9606-5A47DE0EE855}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0EA4396-3D5A-4586-AD1E-F7ED7C646327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EA4396-3D5A-4586-AD1E-F7ED7C646327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EA4396-3D5A-4586-AD1E-F7ED7C646327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EA4396-3D5A-4586-AD1E-F7ED7C646327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AA375A-BACA-4C8A-ACE5-2F8200EE86F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AA375A-BACA-4C8A-ACE5-2F8200EE86F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AA375A-BACA-4C8A-ACE5-2F8200EE86F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AA375A-BACA-4C8A-ACE5-2F8200EE86F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B6DCE2-6F54-4914-9606-5A47DE0EE855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B6DCE2-6F54-4914-9606-5A47DE0EE855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B6DCE2-6F54-4914-9606-5A47DE0EE855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B6DCE2-6F54-4914-9606-5A47DE0EE855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
